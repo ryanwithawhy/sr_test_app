@@ -23,75 +23,75 @@ True,True,False,False,RecordNameStrategy,True,0,cannot enable both use.latest.ve
 True,True,False,False,RecordNameStrategy,False,0,value.schema is required for Avro serialization
 True,True,False,False,TopicRecordNameStrategy,True,0,cannot enable both use.latest.version and auto.register.schemas
 True,True,False,False,TopicRecordNameStrategy,False,0,value.schema is required for Avro serialization
-True,False,True,True,TopicNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+True,False,True,True,TopicNameStrategy,True,0,subject.name.strategy must be callable
 True,False,True,True,TopicNameStrategy,False,0,value.schema is required for Avro serialization
-True,False,True,True,RecordNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+True,False,True,True,RecordNameStrategy,True,0,subject.name.strategy must be callable
 True,False,True,True,RecordNameStrategy,False,0,value.schema is required for Avro serialization
-True,False,True,True,TopicRecordNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+True,False,True,True,TopicRecordNameStrategy,True,0,subject.name.strategy must be callable
 True,False,True,True,TopicRecordNameStrategy,False,0,value.schema is required for Avro serialization
-True,False,True,False,TopicNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+True,False,True,False,TopicNameStrategy,True,0,subject.name.strategy must be callable
 True,False,True,False,TopicNameStrategy,False,0,value.schema is required for Avro serialization
-True,False,True,False,RecordNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+True,False,True,False,RecordNameStrategy,True,0,subject.name.strategy must be callable
 True,False,True,False,RecordNameStrategy,False,0,value.schema is required for Avro serialization
-True,False,True,False,TopicRecordNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+True,False,True,False,TopicRecordNameStrategy,True,0,subject.name.strategy must be callable
 True,False,True,False,TopicRecordNameStrategy,False,0,value.schema is required for Avro serialization
-True,False,False,True,TopicNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+True,False,False,True,TopicNameStrategy,True,0,subject.name.strategy must be callable
 True,False,False,True,TopicNameStrategy,False,0,value.schema is required for Avro serialization
-True,False,False,True,RecordNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+True,False,False,True,RecordNameStrategy,True,0,subject.name.strategy must be callable
 True,False,False,True,RecordNameStrategy,False,0,value.schema is required for Avro serialization
-True,False,False,True,TopicRecordNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+True,False,False,True,TopicRecordNameStrategy,True,0,subject.name.strategy must be callable
 True,False,False,True,TopicRecordNameStrategy,False,0,value.schema is required for Avro serialization
-True,False,False,False,TopicNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+True,False,False,False,TopicNameStrategy,True,0,subject.name.strategy must be callable
 True,False,False,False,TopicNameStrategy,False,0,value.schema is required for Avro serialization
-True,False,False,False,RecordNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+True,False,False,False,RecordNameStrategy,True,0,subject.name.strategy must be callable
 True,False,False,False,RecordNameStrategy,False,0,value.schema is required for Avro serialization
-True,False,False,False,TopicRecordNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+True,False,False,False,TopicRecordNameStrategy,True,0,subject.name.strategy must be callable
 True,False,False,False,TopicRecordNameStrategy,False,0,value.schema is required for Avro serialization
-False,True,True,True,TopicNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+False,True,True,True,TopicNameStrategy,True,0,subject.name.strategy must be callable
 False,True,True,True,TopicNameStrategy,False,0,value.schema is required for Avro serialization
-False,True,True,True,RecordNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+False,True,True,True,RecordNameStrategy,True,0,subject.name.strategy must be callable
 False,True,True,True,RecordNameStrategy,False,0,value.schema is required for Avro serialization
-False,True,True,True,TopicRecordNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+False,True,True,True,TopicRecordNameStrategy,True,0,subject.name.strategy must be callable
 False,True,True,True,TopicRecordNameStrategy,False,0,value.schema is required for Avro serialization
-False,True,True,False,TopicNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+False,True,True,False,TopicNameStrategy,True,0,subject.name.strategy must be callable
 False,True,True,False,TopicNameStrategy,False,0,value.schema is required for Avro serialization
-False,True,True,False,RecordNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+False,True,True,False,RecordNameStrategy,True,0,subject.name.strategy must be callable
 False,True,True,False,RecordNameStrategy,False,0,value.schema is required for Avro serialization
-False,True,True,False,TopicRecordNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+False,True,True,False,TopicRecordNameStrategy,True,0,subject.name.strategy must be callable
 False,True,True,False,TopicRecordNameStrategy,False,0,value.schema is required for Avro serialization
-False,True,False,True,TopicNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+False,True,False,True,TopicNameStrategy,True,0,subject.name.strategy must be callable
 False,True,False,True,TopicNameStrategy,False,0,value.schema is required for Avro serialization
-False,True,False,True,RecordNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+False,True,False,True,RecordNameStrategy,True,0,subject.name.strategy must be callable
 False,True,False,True,RecordNameStrategy,False,0,value.schema is required for Avro serialization
-False,True,False,True,TopicRecordNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+False,True,False,True,TopicRecordNameStrategy,True,0,subject.name.strategy must be callable
 False,True,False,True,TopicRecordNameStrategy,False,0,value.schema is required for Avro serialization
-False,True,False,False,TopicNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+False,True,False,False,TopicNameStrategy,True,0,subject.name.strategy must be callable
 False,True,False,False,TopicNameStrategy,False,0,value.schema is required for Avro serialization
-False,True,False,False,RecordNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+False,True,False,False,RecordNameStrategy,True,0,subject.name.strategy must be callable
 False,True,False,False,RecordNameStrategy,False,0,value.schema is required for Avro serialization
-False,True,False,False,TopicRecordNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+False,True,False,False,TopicRecordNameStrategy,True,0,subject.name.strategy must be callable
 False,True,False,False,TopicRecordNameStrategy,False,0,value.schema is required for Avro serialization
-False,False,True,True,TopicNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+False,False,True,True,TopicNameStrategy,True,0,subject.name.strategy must be callable
 False,False,True,True,TopicNameStrategy,False,0,value.schema is required for Avro serialization
-False,False,True,True,RecordNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+False,False,True,True,RecordNameStrategy,True,0,subject.name.strategy must be callable
 False,False,True,True,RecordNameStrategy,False,0,value.schema is required for Avro serialization
-False,False,True,True,TopicRecordNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+False,False,True,True,TopicRecordNameStrategy,True,0,subject.name.strategy must be callable
 False,False,True,True,TopicRecordNameStrategy,False,0,value.schema is required for Avro serialization
-False,False,True,False,TopicNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+False,False,True,False,TopicNameStrategy,True,0,subject.name.strategy must be callable
 False,False,True,False,TopicNameStrategy,False,0,value.schema is required for Avro serialization
-False,False,True,False,RecordNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+False,False,True,False,RecordNameStrategy,True,0,subject.name.strategy must be callable
 False,False,True,False,RecordNameStrategy,False,0,value.schema is required for Avro serialization
-False,False,True,False,TopicRecordNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+False,False,True,False,TopicRecordNameStrategy,True,0,subject.name.strategy must be callable
 False,False,True,False,TopicRecordNameStrategy,False,0,value.schema is required for Avro serialization
-False,False,False,True,TopicNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+False,False,False,True,TopicNameStrategy,True,0,subject.name.strategy must be callable
 False,False,False,True,TopicNameStrategy,False,0,value.schema is required for Avro serialization
-False,False,False,True,RecordNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+False,False,False,True,RecordNameStrategy,True,0,subject.name.strategy must be callable
 False,False,False,True,RecordNameStrategy,False,0,value.schema is required for Avro serialization
-False,False,False,True,TopicRecordNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+False,False,False,True,TopicRecordNameStrategy,True,0,subject.name.strategy must be callable
 False,False,False,True,TopicRecordNameStrategy,False,0,value.schema is required for Avro serialization
-False,False,False,False,TopicNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+False,False,False,False,TopicNameStrategy,True,0,subject.name.strategy must be callable
 False,False,False,False,TopicNameStrategy,False,0,value.schema is required for Avro serialization
-False,False,False,False,RecordNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+False,False,False,False,RecordNameStrategy,True,0,subject.name.strategy must be callable
 False,False,False,False,RecordNameStrategy,False,0,value.schema is required for Avro serialization
-False,False,False,False,TopicRecordNameStrategy,True,0,"Produce error: KafkaError{code=_VALUE_SERIALIZATION,val=-161,str=""User is denied operation on this server. (HTTP status code 403, SR code 40301)""}"
+False,False,False,False,TopicRecordNameStrategy,True,0,subject.name.strategy must be callable
 False,False,False,False,TopicRecordNameStrategy,False,0,value.schema is required for Avro serialization

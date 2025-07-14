@@ -44,13 +44,14 @@ def get_avro_serializer(schema_registry_conf, schema_str, config):
             "use.latest.version": config["use_latest_version"],
             "use.schema.id": config["use_schema_id"],
             # "id.compatibility.strict": config["id_compatibility_strict"],
-            # "value.subject.name.strategy": config["value_subject_name_strategy"]
+            "subject.name.strategy": config["value_subject_name_strategy"]
         }
     )
     return serializer
 
 
 def send_records(config, schema_str, records):
+    print(11111)
     success_count = 0
     error_messages = []
     delivery_errors = []
@@ -79,8 +80,10 @@ def send_records(config, schema_str, records):
     }
 
     try:
+        print(222222)
         producer = SerializingProducer(producer_conf)
     except Exception as e:
+        print(333333)
         return 0, [f"Producer creation failed: {e}"]
 
     def delivery_report(err, msg):
